@@ -53,3 +53,4 @@ public class GUIKaffeekasse extends JList<String> {
 }
 
 
+//Wie toll das ist...
