@@ -74,9 +74,9 @@ public class Hauptframe extends JFrame implements ActionListener {
 	JLabel zuZahlenderBetrag = new JLabel();
 	JLabel bezahlt = new JLabel();
 	
-	JButton loeschenButton = new JButton("Löschen");
+	JButton loeschenButton = new JButton("LÃ¶schen");
 	JButton speichernButton = new JButton("Speichern");
-	JButton aendernButton = new JButton("Ändern");
+	JButton aendernButton = new JButton("Ã„ndern");
 	
 	public Hauptframe(){
 		
@@ -121,7 +121,7 @@ public class Hauptframe extends JFrame implements ActionListener {
 		speichernButton.addActionListener(this);
 		aendernButton.addActionListener(this);
 				
-		this.setSize(600,600);
+		this.setSize(610,610);
 		this.setVisible(true);
 		zentrieren();
 		
@@ -165,13 +165,13 @@ public class Hauptframe extends JFrame implements ActionListener {
 		
 		if(arg0.getSource().equals(loeschenButton)){
 			guikaffe.getSelectedIndex();
-			System.out.println("Person löschen wurde geklickt");			
+			System.out.println("Person lÃ¶schen wurde geklickt");			
 			
 		}
 		
 		if(arg0.getSource().equals(aendernButton)){
 			guikaffe.getSelectedIndex();
-			System.out.println("Person ändern wurde geklickt");
+			System.out.println("Person Ã¤ndern wurde geklickt");
 		}
 		
 	}
